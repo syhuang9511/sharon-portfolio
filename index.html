@@ -428,12 +428,16 @@ Get in touch
 <p>&copy; 2026 Sharon Huang. Designed & Built with <i class="fa-solid fa-heart text-red-500 mx-1"></i></p>
 </footer>
 <!-- ======== 作品集燈箱: 醫療 APP 設計歷程 (全螢幕展示) ======== -->
-<div id="gallery-medapp" class="fixed inset-0 z-[100] hidden bg-white overflow-y-auto">
-<button onclick="closeGallery('medapp')" aria-label="關閉" class="fixed top-5 right-5 md:top-8 md:right-8 w-11 h-11 rounded-full bg-white shadow-lg border border-gray-100 flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition z-10">
+<div id="gallery-medapp" class="fixed inset-0 z-[100] hidden">
+<div class="absolute inset-0 bg-gray-900/70 backdrop-blur-sm" onclick="closeGallery('medapp')"></div>
+<div class="absolute inset-0 flex items-center justify-center p-4 md:p-10">
+<div class="relative w-full max-w-4xl h-[85vh] bg-white rounded-3xl shadow-2xl flex flex-col overflow-hidden">
+<button onclick="closeGallery('medapp')" aria-label="關閉" class="absolute top-4 right-4 md:top-6 md:right-6 w-10 h-10 rounded-full bg-white shadow-lg border border-gray-100 flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition z-20">
 <i class="fa-solid fa-xmark text-lg"></i>
 </button>
+<div class="flex-1 overflow-y-auto">
 <figure class="bg-[#eaf4f1]">
-<img src="https://syhuang9511.github.io/sharon-portfolio/assets/uts-hub/cover.png" alt="UTS Hub 雲端藥局系統" class="w-full max-h-[50vh] object-cover object-top mx-auto">
+<img src="https://syhuang9511.github.io/sharon-portfolio/assets/uts-hub/cover.png" alt="UTS Hub 雲端藥局系統" class="w-full max-h-[40vh] object-cover object-top mx-auto">
 </figure>
 <div class="max-w-4xl mx-auto px-6 md:px-12 py-10 md:py-14">
 <div class="flex gap-2 mb-4">
@@ -512,13 +516,20 @@ Get in touch
 </div>
 </div>
 </div>
-<!-- ======== 作品集燈箱: LUMi Healthub 設計歷程 (全螢幕展示) ======== -->
-<div id="gallery-healthub" class="fixed inset-0 z-[100] hidden bg-white overflow-y-auto">
-<button onclick="closeGallery('healthub')" aria-label="關閉" class="fixed top-5 right-5 md:top-8 md:right-8 w-11 h-11 rounded-full bg-white shadow-lg border border-gray-100 flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition z-10">
+</div>
+</div>
+</div>
+<!-- ======== 作品集燈箱: LUMi Healthub 設計歷程 (縮小彈窗展示) ======== -->
+<div id="gallery-healthub" class="fixed inset-0 z-[100] hidden">
+<div class="absolute inset-0 bg-gray-900/70 backdrop-blur-sm" onclick="closeGallery('healthub')"></div>
+<div class="absolute inset-0 flex items-center justify-center p-4 md:p-10">
+<div class="relative w-full max-w-4xl h-[85vh] bg-white rounded-3xl shadow-2xl flex flex-col overflow-hidden">
+<button onclick="closeGallery('healthub')" aria-label="關閉" class="absolute top-4 right-4 md:top-6 md:right-6 w-10 h-10 rounded-full bg-white shadow-lg border border-gray-100 flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition z-20">
 <i class="fa-solid fa-xmark text-lg"></i>
 </button>
+<div class="flex-1 overflow-y-auto">
 <figure class="bg-[#dbe9e4]">
-<img src="https://syhuang9511.github.io/sharon-portfolio/assets/lumi-healthub/cover.png" onerror="this.onerror=null;this.src='https://placehold.co/1600x600/dbe9e4/2f7e78?text=LUMi+Healthub'" alt="LUMi Healthub 健康小站" class="w-full max-h-[50vh] object-cover object-top mx-auto">
+<img src="https://syhuang9511.github.io/sharon-portfolio/assets/lumi-healthub/cover.png" onerror="this.onerror=null;this.src='https://placehold.co/1600x600/dbe9e4/2f7e78?text=LUMi+Healthub'" alt="LUMi Healthub 健康小站" class="w-full max-h-[40vh] object-cover object-top mx-auto">
 </figure>
 <div class="max-w-4xl mx-auto px-6 md:px-12 py-10 md:py-14">
 <div class="flex gap-2 mb-4">
@@ -576,6 +587,9 @@ Get in touch
 <div class="grid md:grid-cols-2 gap-6">
 <figure class="bg-gray-50 rounded-2xl p-4"><img src="https://syhuang9511.github.io/sharon-portfolio/assets/lumi-healthub/admin-overview.png" onerror="this.onerror=null;this.src='https://placehold.co/1200x800/dbe9e4/2f7e78?text=Admin+Overview'" class="w-full rounded-lg" alt="後台管理總覽儀表板"></figure>
 <figure class="bg-gray-50 rounded-2xl p-4"><img src="https://syhuang9511.github.io/sharon-portfolio/assets/lumi-healthub/admin-table.png" onerror="this.onerror=null;this.src='https://placehold.co/1200x800/dbe9e4/2f7e78?text=Admin+Data+Table'" class="w-full rounded-lg" alt="後台量測資料查詢與異常等級色階"></figure>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
